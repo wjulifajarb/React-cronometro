@@ -1,0 +1,168 @@
+html {
+	margin: 0;
+	padding: 0;
+  background-color:rgba(93, 91, 206, 0.637);
+  background-image: url(./assets/img/9-removebg-preview.png);
+  background-repeat: no-repeat ;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+  
+  
+}
+/* --------------- */
+/*  Header - menu  */
+/* --------------- */
+nav {
+  text-align: center; 
+}
+nav > a{
+  color: white;
+  font-size: 350;
+  text-decoration: none;
+  margin-right: 10px;
+  font-family: 'Bodoni Moda', serif;
+}
+nav > a:hover{
+  text-decoration: underline;
+ 
+}
+/* --------------- */
+/*  Grid-area      */
+/* --------------- */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto 1px;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.btn-start {
+  grid-area: 45 / 2 / 47 / 3;
+}
+.btn-stop {
+  grid-area: 45 / 3 / 47 / 4;
+}
+.btn-record {
+  grid-area: 45 / 4 / 47 / 5;
+}
+.btn-rest {
+  grid-area: 45 / 5 / 47 / 6;
+}
+
+
+/* --------------- */
+/*  Cronometro     */
+/* --------------- */
+#screen {
+	font-family: 'Bodoni Moda', serif;
+	font-size: 50px;
+  color:white; 
+}
+  /* --------------- */
+  /*  Botones        */
+  /* --------------- */
+    .btn-start {
+      border-radius: 10px;
+      width: 100px;
+      height: 30px;
+      margin: 5px;
+      border: 1px solid hsl(211, 53%, 84%);
+      color: white;
+      cursor: pointer;
+      font-family: 'Bodoni Moda', serif;
+      font-size: 80%;
+      text-shadow: 0px -1px 1px white;
+      text-transform: uppercase;
+      transition: all 0.2s ease;
+      background-image: linear-gradient(rgb(112, 112, 177),#4da6da);
+    }
+    
+    .btn-start:active{
+       background-image: linear-gradient(rgb(120, 120, 185),#16374b);
+       text-shadow:      0px 1px 1px blue;
+    }
+    
+    
+    .btn-stop {
+      border-radius: 10px;
+      width: 100px;
+      height: 30px;
+      margin: 5px;
+      border: 1px solid hsl(211, 53%, 84%);
+      color: white;
+      cursor: pointer;
+      font-family: 'Bodoni Moda', serif;
+      font-size: 80%;
+      text-shadow: 0px -1px 1px white;
+      text-transform: uppercase;
+      transition: all 0.2s ease;
+      background-image: linear-gradient(rgb(112, 112, 177),#4da6da);
+    }
+    
+    .btn-stop:active{
+       background-image: linear-gradient(rgb(120, 120, 185),#16374b);
+       text-shadow:      0px 1px 1px blue;
+    }
+    
+    .btn-record {
+      border-radius: 10px;
+      width: 100px;
+      height: 30px;
+      margin: 5px;
+      border: 1px solid hsl(211, 53%, 84%);
+      color: white;
+      cursor: pointer;
+      font-family: 'Bodoni Moda', serif;
+      font-size: 80%;
+      text-shadow: 0px -1px 1px white;
+      text-transform: uppercase;
+      transition: all 0.2s ease;
+      background-image: linear-gradient(rgb(112, 112, 177),#4da6da);
+    }
+    
+    .btn-record:active{
+       background-image: linear-gradient(rgb(120, 120, 185),#16374b);
+       text-shadow:      0px 1px 1px blue;
+    }
+    
+    .btn-rest {
+      border-radius: 10px;
+      width: 100px;
+      height: 30px;
+      margin: 5px;
+      border: 1px solid hsl(211, 53%, 84%);
+      color: white;
+      cursor: pointer;
+      font-family: 'Bodoni Moda', serif;
+      font-size: 80%;
+      text-shadow: 0px -1px 1px white;
+      text-transform: uppercase;
+      transition: all 0.2s ease;
+      background-image: linear-gradient(rgb(112, 112, 177),#4da6da);
+    }
+    
+    .btn-rest:active{
+       background-image: linear-gradient(rgb(120, 120, 185),#16374b);
+       text-shadow:      0px 1px 1px blue;
+    }
+
+/* --------------- */
+/* Record guardados*/
+/* --------------- */
+
+    .grabacion {
+      color: white;
+      font-size: 150;
+      text-decoration: underline;
+      font-family: 'Bodoni Moda', serif;
+      
+
+    }
